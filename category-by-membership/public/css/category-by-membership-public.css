@@ -1,4 +1,46 @@
-/**
- * All of the CSS for your public-facing functionality should be
- * included in this file.
- */
+.ar-elementor-ribbon.ar-elementor-ribbon-left {
+    -webkit-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transform: rotate(0);
+    left: 0;
+    right: auto;
+}
+.ar-elementor-ribbon {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: auto;
+    right: 0;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 150px;
+    overflow: hidden;
+    height: 150px;
+}
+.ar-elementor-element .ar-elementor-ribbon-inner .element-post__card{
+    background-color: #ef2e5e;
+    margin-top: 30px;
+    transform: translateY(-50%) translateX(-50%) translateX(30px) rotate(-45deg);
+}
+.ar-elementor-ribbon-inner {
+    /*#change color and font here*/
+    background-color: #db3157 !important;
+    font-family: Oswald,Sans-serif;
+    font-weight: 500;
+}
+.ar-elementor-ribbon-inner {
+    text-align: center;
+    left: 0;
+    width: 200%;
+    -webkit-transform: translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);
+    -ms-transform: translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);
+    transform: translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);
+    margin-top: 35px;
+    font-size: 13px;
+    line-height: 2;
+    font-weight: 800;
+    text-transform: none;
+    background: #000;
+    color: #fff;
+}
